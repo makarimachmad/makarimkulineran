@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "products" : [
+    {
+      "id": 1,
+      "nama":"makananA",
+      "harga":9000,
+      "gambar":"makananA.jpg",
+      "keterangan":"ini merupakan makanan A yang isinya ada sayur, daging, dan protein"
+    }
+  ],
+  "keranjangs" : [
+    {
+      "id":1,
+      "nama": "makarim",
+      "keterangan": "nonpaid",
+      "jumlah_pesanan": 2,
+      "harga": 20000
+    }
+  ],
+  "pesanans" : [
+    {
+      "nama":"makarim",
+      "noMeja":3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
